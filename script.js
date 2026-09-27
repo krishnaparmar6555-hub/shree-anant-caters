@@ -32,7 +32,7 @@ Thank you for contacting Shree Anant Caters.`;
     const whatsappUrl =
         `https://wa.me/918965089147?text=${encodeURIComponent(text)}`;
 
-    window.open(whatsappUrl, "_blank");
+    window.location.href = whatsappUrl;
     alert("Your enquiry has been sent to WhatsApp!");
 });
 
